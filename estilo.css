@@ -1,0 +1,113 @@
+/*Fuentes tipográficas*/
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Ubuntu:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Diseño general*/
+body{
+    font-family: 'Ubuntu',sans-serif;
+    margin: 0px;
+}
+
+
+/*Encabezado*/
+header{
+    margin: 0px;
+    padding: 30px 0px;
+    color: #ffffff;
+    background-color: #E93f01;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover; /* El ancho a lmaximo y la altura automático */
+    background-repeat: no-repeat;
+}
+/* Especificando el selector h1 mediante una ruta */
+header > h1{
+    margin: 0px;
+    font-size: 3em;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    
+  
+}
+header > h2{
+    margin: 0px;
+    font-size: 1.5em;
+    text-align: center;
+   
+  
+}
+/* Navegación */
+nav > ul {
+    margin: 0;
+    background-color:#8C031C;
+    text-align: center;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+nav > ul > li:hover{
+   background-color: #E93f01;
+}
+nav > ul > li > a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Estilos para el párrafo p */
+div p{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    background-color:#ec9020;
+    color: #ffffff;
+}
+
+/* Esilos para el main */
+
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+/* Estilos para la sección */
+#catalogo{
+    text-align: center;
+}
+/* Estilos para el artículo */
+
+article{
+    width: 24%;
+    max-width: 320px;
+    min-width: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: solid 1px red;
+    
+}
+article h3,p{
+    font-size: 18px;
+    margin: 0px;
+}
+article button{
+    background-color: #E93f01;
+    border: 0 none;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+   
+}
+.imgProducto{
+    width: 100%;
+
+}
+footer{
+    width: 100%;
+    background-color: #8C031C;
+}
+footer p{
+    color:#ffffff;
+    padding: 20px 0px;
+    text-align: center;
+}
+

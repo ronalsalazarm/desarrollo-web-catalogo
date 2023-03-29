@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar hoja de estilo -->
+    <link rel="stylesheet" href="estilo.css">
     <title>Catálogo Candy Malvys</title>
 </head>
 <body>
     <header><!-- Encabezado -->
-        <h1 style="font-size: 2em; color: red;">Candy Malvys</h1> <!-- Título 1 -->
+        <h1>Candy Malvys</h1> <!-- Título 1 -->
         <h2>La mayor variedad de golosinas</h2> <!-- Título 2 -->
     </header>
 
-    <p>Venta de productos catálogo Marzo 2023</p> <!-- Párrafo -->
-    
-    <hr> <!-- Línea horizontal -->
-
+   
     <nav><!-- Navegation -->
         <ul><!-- Lista desordenada: puntos, asteriscos,viñetas,etc -->
             <li><a href="index.html">Inicio</a> <!-- Ancla --></li>
             <li><a href="about.html">Quienes Somos</a></li>
             <li><a href="contacto.html" target="_blank">Contáctenos</a></li><!-- lista Item -->
         </ul>
-       
     </nav>
-    <hr>
+
+   <!-- Notificación -->
+   <div>
+    <p>VENTA DE PRODUCTOS - CATÁLOGO MARZO 2023</p> <!-- Párrafo -->
+   </div>
+   
+    
 
     <!-- Parte principal -->
     <main>
@@ -33,186 +37,366 @@
         <section id="catalogo">
             <!-- Articulo 01 -->
             <article>
-                <h3>Galleta Tejana Sayon 480g</h3>
                 <picture>
-                    <img src="img/img01.jpg" alt="Galleta tejana" width="500px">
-                    <p>Descripción: Galletas con cobertura sabor a chocolate</p>
-                    <p>S/11.20</p>
+                    <img src="img/img01.jpg" alt="Galleta tejana" class="imgProducto">
                 </picture>
+                <h3>Galleta Tejana Sayon 480g</h3>
+                <br>
+                <p>Descripción: Galletas con cobertura sabor a chocolate</p>
+                <br>
+                <p>
+                   <span class="precioMayor">S/11.20</span> <br>
+                    <span class="precioMenor">12.40</span>
+                </p>
+                <br>
+                <button>Agregar al carrito</button>
+                <br>
             </article>
              <!-- Articulo 02 -->
              <article>
-                <h3>Galleta Casino Fresa - Pack 6x43g</h3>
                 <picture>
-                    <img src="img/img02.png" alt="Galleta casino" width="500px">
-                    <P>Descripción: Galleta con crema sabor fresa - contiene 6 paquetes de galletas</P>
-                    <p>S/5.60</p>
+                    <img src="img/img02.png" alt="Galleta casino" class="imgProducto">
                 </picture>
+                <h3>Galleta Casino Fresa - Pack 6x43g</h3>
+                <br>
+                <P>Descripción: Galleta con crema sabor fresa - contiene 6 paquetes de galletas</P>
+                <br>
+                <p>
+                    <span class="precioMayor">S/5.60</span> <br>
+                     <span class="precioMenor">6.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 03 -->
              <article>
-                <h3>Galleta Margarita Sayon - Pack 6x46g</h3>
                 <picture>
-                    <img src="img/img03.jpg" alt="Galleta margarita" width="500px">
-                    <p>Descripción: Galletas dulces - contiene 6 paquetes de galletas</p>
-                    <p>S/5.00</p>
+                    <img src="img/img03.jpg" alt="Galleta margarita" class="imgProducto" >
                 </picture>
+                <h3>Galleta Margarita Sayon - Pack 6x46g</h3>
+                <br>
+                <p>Descripción: Galletas dulces - contiene 6 paquetes de galletas</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/5.00</span> <br>
+                     <span class="precioMenor">5.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 04 -->
             <article>
-                <h3>Galleta Chomp Chocolate - Pack 6x46g</h3>
                 <picture>
-                    <img src="img/img04.jpg" alt="Galleta chomp" width="500px">
-                    <p>Descripción: Galletas Chomp sabor chocolate - Contiene 6 unidades sueltas</p>
-                    <p>S/14.80</p>
+                    <img src="img/img04.webp" alt="Galleta chomp" class="imgProducto">
                 </picture>
+                <h3>Galleta Chomp Chocolate - Pack 6x46g</h3> 
+                <br>
+                <p>Descripción: Galletas Chomp sabor chocolate - Contiene 6 unidades sueltas</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/14.80</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 05 -->
             <article>
-                <h3>Galletas Morochas - Pack 12x30g  480g</h3>
+               
                 <picture>
-                    <img src="img/img05.webp" alt="Galleta morochas" width="500px">
-                    <p>Descripción: Galletas bañadas con pasta sabor a chocolate - contiene 12 paquetes de galletas</p>
-                    <p>S/11.20</p>
+                    <img src="img/img05.webp" alt="Galleta morochas" class="imgProducto" >
                 </picture>
+                <h3>Galletas Morochas - Pack 12x30g</h3>
+                <br>
+                <p>Descripción: Galletas bañadas con pasta sabor a chocolate - contiene 12 paquetes de galletas</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/11.20</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 06 -->
             <article>
-                <h3>Galleta Munición 450g</h3>
+              
                 <picture>
-                    <img src="img/img06.webp" alt="Galleta munición" width="500px">
-                    <p>Descripción: Galletas sabor vainilla </p>
-                    <p>S/7.00</p>
+                    <img src="img/img06.webp" alt="Galleta munición" class="imgProducto">
                 </picture>
+                <h3>Galleta Munición 450g</h3>
+                <br>
+                <p>Descripción: Galletas sabor vainilla </p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/7.00</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 07 -->
             <article>
-                <h3>Galleta Animalitos San Jorge 1kg</h3>
+               
                 <picture>
-                    <img src="img/img07.webp" alt="Galleta animalitos" width="500px">
-                    <p>Descripción: Galletas en forma de animalitos</p>
-                    <p>S/10.50</p>
+                    <img src="img/img07.webp" alt="Galleta animalitos" class="imgProducto" >
                 </picture>
+                <h3>Galleta Animalitos San Jorge 1kg</h3>
+                <br>
+                <p>Descripción: Galletas en forma de animalitos</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/10.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 08 -->
             <article>
-                <h3>Galleta Tentación Naranja - Pack 6x45g</h3>
+               
                 <picture>
-                    <img src="img/img08.webp" alt="Galleta tentación" width="500px">
-                    <p>Descripción: Galletas tentación sabor naranja</p>
-                    <p>S/3.20</p>
+                    <img src="img/img08.webp" alt="Galleta tentación" class="imgProducto">
                 </picture>
+                <h3>Galleta Tentación Naranja - Pack 6x45g</h3> 
+                <br>
+                <p>Descripción: Galletas tentación sabor naranja</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/3.20</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 09 -->
             <article>
-                <h3>Galletas Chaplin 60g</h3>
+               
                 <picture>
-                    <img src="img/img09.png" alt="Galletas chaplin" width="500px">
-                    <p>Descripción: Galletas chaplin crocantes y doraditas</p>
-                    <p>S/1.50</p>
+                    <img src="img/img09.png" alt="Galletas chaplin" class="imgProducto">
                 </picture>
+                <h3>Galletas Chaplin 60g</h3>
+                <br>
+                <p>Descripción: Galletas chaplin crocantes y doraditas</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/1.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 10 -->
             <article>
-                <h3>Chupetines Bon Bon Mango 24 unidades</h3>
+              
                 <picture>
-                    <img src="img/img10.webp" alt="Chupetines bon bon" width="500px">
-                    <p>Descripción: Caramelos duro con palo con sabores a mango con relleno de chicle.</p>
-                    <p>S/5.80</p>
+                    <img src="img/img10.webp" alt="Chupetines bon bon" class="imgProducto">
                 </picture>
+                <h3>Chupetines Bon Bon Mango 24 unidades</h3>
+                <br>
+                <p>Descripción: Caramelos duro con palo con sabores a mango con relleno de chicle.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/5.80</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 11 -->
             <article>
-                <h3>Maní Confitado Crickets 100g</h3>
+               
                 <picture>
-                    <img src="img/img11.jpeg" alt="Maní confitado" width="500px">
-                    <p>Descripción: Maní recubierto con una capa de caramenlo y ajonjolí</p>
-                    <p>S/3.90</p>
+                    <img src="img/img11.jpeg" alt="Maní confitado" class="imgProducto">
                 </picture>
+                <h3>Maní Confitado Crickets 100g</h3>
+                <br>
+                <p>Descripción: Maní recubierto con una capa de caramenlo y ajonjolí</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/3.90</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 12 -->
             <article>
-                <h3>Mini Sapito 275g</h3>
+               
                 <picture>
-                    <img src="img/img12.webp" alt="Mini sapito" width="500px">
-                    <p>Descripción: Chocolatina en forma de sapito rellena de maní, manjar y fresa.</p>
-                    <p>S/14.20</p>
+                    <img src="img/img12.webp" alt="Mini sapito" class="imgProducto">
                 </picture>
+                <h3>Mini Sapito 275g</h3>
+                <br>
+                <p>Descripción: Chocolatina en forma de sapito rellena de maní, manjar y fresa.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/14.20</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
               <!-- Articulo 13 -->
               <article>
-                <h3>Trifruna 70 und</h3>
+               
                 <picture>
-                    <img src="img/img13.jpg" alt="Trifruna" width="500px">
-                    <p>Descripción: Caramelos masticables de 3 sabores.</p>
-                    <p>S/8.50</p>
+                    <img src="img/img13.jpg" alt="Trifruna" class="imgProducto">
                 </picture>
+                <h3>Trifruna 70 und</h3>
+                <br>
+                <p>Descripción: Caramelos masticables de 3 sabores.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/8.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 14 -->
             <article>
-                <h3>Gomitas Ambrosía 480g</h3>
+              
                 <picture>
-                    <img src="img/img14.jpg" alt="Gomitas ambrosía" width="500px">
-                    <p>Descripción: Gomitas de almidón de sabores: Fresa,naranaja,limón,uva y piña.</p>
-                    <p>S/8.50</p>
+                    <img src="img/img14.jpg" alt="Gomitas ambrosía" class="imgProducto">
                 </picture>
+                <h3>Gomitas Ambrosía 480g</h3>
+                <br>
+                <p>Descripción: Gomitas de almidón de sabores: Fresa,naranaja,limón,uva y piña.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/8.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
               <!-- Articulo 15 -->
               <article>
-                <h3>Big Ben Chocolate Blanco 100 und</h3>
+               
                 <picture>
-                    <img src="img/img15.jpg" alt="Big ben" width="500px">
-                    <p>Descripción: Caramelo de leche con centro de sabor a chocolate blanco.</p>
-                    <p>S/9.50</p>
+                    <img src="img/img15.jpg" alt="Big ben" class="imgProducto">
                 </picture>
+                <h3>Big Ben Chocolate Blanco 100 und</h3>
+                <br>
+                <p>Descripción: Caramelo de leche con centro de sabor a chocolate blanco.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/9.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 16 -->
             <article>
-                <h3>Chupetín Chapulín Colorado 24 und</h3>
+              
                 <picture>
-                    <img src="img/img16.jpg" alt="Chapulín colorado" width="500px">
-                    <p>Descripción: Caramelos duros sabores a tutti frutti, chicha morada,manzana y cereza rellenos con chicle</p>
-                    <p>S/8.50</p>
+                    <img src="img/img16.jpg" alt="Chapulín colorado" class="imgProducto">
                 </picture>
+                <h3>Chupetín Chapulín Colorado 24 und</h3>
+                <br>
+                <p>Descripción: Caramelos duros sabores a tutti frutti, chicha morada,manzana y cereza rellenos con chicle</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/8.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
              <!-- Articulo 17 -->
              <article>
-                <h3>Caramelos Chicha Morada Sayon 100 und</h3>
+                
                 <picture>
-                    <img src="img/img17.jpg" alt="Chicha morada" width="500px">
-                    <p>Descripción: Caramelos con sabor a chicha moada</p>
-                    <p>S/5.50</p>
+                    <img src="img/img17.jpg" alt="Chicha morada" class="imgProducto" >
                 </picture>
+                <h3>Caramelos Chicha Morada Sayon 100 und</h3>
+                <br>
+                <p>Descripción: Caramelos con sabor a chicha morada</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/5.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 18 -->
             <article>
-                <h3>Super Café Gurmé 100 und</h3>
+                
                 <picture>
-                    <img src="img/img18.jpg" alt="Café gurmé" width="500px">
-                    <p>Descripción: Caramelo blando con el mejor sabor a Café</p>
-                    <p>S/12.10</p>
+                    <img src="img/img18.jpg" alt="Café gurmé"  class="imgProducto">
                 </picture>
+                <h3>Super Café Gurmé 100 und</h3>
+                <br>
+                <p>Descripción: Caramelo blando con el mejor sabor a Café</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/12.10</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
               <!-- Articulo 19 -->
               <article>
-                <h3>Caramelos Arcor Limón 100 und</h3>
+               
                 <picture>
-                    <img src="img/img19.jpg" alt="Caramelos limón" width="500px">
-                    <p>Descripción: Caramelos con sabor a limón.</p>
-                    <p>S/8.50</p>
+                    <img src="img/img19.jpg" alt="Caramelos limón" class="imgProducto" >
                 </picture>
+                <h3>Caramelos Arcor Limón 100 und</h3>
+                <br>
+                <p>Descripción: Caramelos con sabor a limón.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/8.50</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article> 
             <!-- Articulo 20 -->
             <article>
-                <h3>Caramelos Trome Clásico 100 und</h3>
+                
                 <picture>
-                    <img src="img/img20.jpg" alt="Caramelos trome" width="500px">
-                    <p>Descripción: Caramelos duros, con el delicioso y tradicional sabor a dulce de leche.</p>
-                    <p>S/5.00</p>
+                    <img src="img/img20.jpg" alt="Caramelos trome" class="imgProducto" >
                 </picture>
+                <h3>Caramelos Trome Clásico 100 und</h3>
+                <br>
+                <p>Descripción: Caramelos duros, con el delicioso y tradicional sabor a dulce de leche.</p>
+                <br>
+                <p>
+                    <span class="precioMayor">S/5.00</span> <br>
+                     <span class="precioMenor">15.40</span>
+                 </p>
+                 <br>
+                 <button>Agregar al carrito</button>
+                 <br>
             </article>
            
         </section>
     </main>
+
+    <footer>
+        <p>Todos los derechos Reservados a &copy; Ronal Salazar M</p>
+    </footer>
 </body>
 </html>
