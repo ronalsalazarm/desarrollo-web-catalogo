@@ -1,88 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar hoja de Estilo -->
+    <link rel="stylesheet" href="estilo.css"><!-- archivo externo -->
     <title>Contáctenos</title>
 </head>
 <body>
     <header><!-- Encabezado -->
-        <h1 style="font-size: 2em; color: red;">Candy Malvys</h1> <!-- Título 1 -->
+        <h1>Candy Malvys</h1> <!-- Título 1 -->
         <h2>La mayor variedad de golosinas</h2> <!-- Título 2 -->
     </header>
-    <nav><!-- Navegation -->
-        <p><a href="index.html" target="_blank">Volver atrás</a></p> <!-- Ancla -->
-    </nav>
 
+   
+    <nav><!-- Navegation -->
+        <ul><!-- Lista desordenada -->
+            <li><a href="index.html">Inicio</a> <!-- Ancla --></li>
+            <li><a href="about.html">Quienes Somos</a></li>
+            <li><a href="contacto.html">Contáctenos</a></li><!-- lista Item,es un enlace hacia la página contacto  -->
+        </ul>
+    </nav>
     <!-- Cuerpo principal -->
-    <main>
+    <main id="principal">
+
+        <section id="ubicanos">
+            <h3>UBICANOS EN :</h3> <!-- título 3 -->
+            
+            <ul> <!-- lista desordenada -->
+                <li>Jr. Ayacucho 851 - Cercado de Lima</li> <!-- lista item -->
+                <li>Teléfono: (01)376-0264</li>
+                <li>Celular: 995855088</li>
+                <li>Whatsapp: 963710180</li>
+            </ul>
+            <!-- Insertando un mapa -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8448212504463!2d-77.0308096850708!3d-12.054195945321014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b99bbc53db%3A0xde4d615b1e53e2f5!2sJr.%20Ayacucho%20851%2C%20Lima%2015001!5e0!3m2!1ses!2spe!4v1679746642746!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section>
+
         <!-- Formulario de contacto -->
         <section id="formContacto">
-            <h3>Escríbenos ahora</h3>
+            <h3>Déjanos un Mensaje</h3>
             <!-- Formulario -->
-            <form action="contactoRegistro.html" method="post">
+            <form action="contactoRegistro.html" method="post"><!-- post envia datos de manera oculta, no se ve en el URL -->
 
                 <!-- Input / Entrada de valor -->
                 <div>
                     <label for="txtNombre">Ingrese su nombre</label>
+                     <br>
+                     <!-- Caja de texto vacía -->
                     <input type="text" name="txtNombre" id="txtNombre" maxlength=50  required>
+                     <br>
                 </div>
                 <div>
                     <label for="txtApellido">Ingrese su apellido</label>
+                    <br>
+                       <!-- Caja de texto vacía -->
                     <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength=54 required>
+                    <br>
                 </div>
                 <div>
                     <label for="txtEmail">Ingrese su  correo electrónico</label>
+                    <br>
+                       <!-- Caja de texto vacía -->
                     <input type="email" name="txtEmail" id="txtEmail" autocomplete="off" maxlength=128 required>
+                    <br>
                 </div>
                 <div>
                     <label for="numPhone">Ingrese su teléfono o celular</label>
+                    <br>
+                       <!-- Caja de texto vacía -->
                     <input type="text" name="numPhone" id="numPhone" maxlength="13" minlength="7">
+                    <br>
                 </div>
 
                 <!-- Select  / Seleccción de valor -->
                 <div>
                     <label for="txtAsunto">Escoja el asunto del mensaje</label>
+                    <br>
                     <select name="txtAsunto" id="txtAsunto" required>
                         <option value="">Seleccione una opción...</option>
                         <option value="compraMayor">Comprar productos por mayor</option>
+                        <option value="compraMenor">Comprar productos por menor</option>
                         <option value="consultaDevolucion">Consulta para devolución de producto</option>
                         <option value="consultaGeneral">Hacer consulta general</option>
-                        
                     </select>
+                    
                 </div>
                
                 <!-- TextArea / Cuerpo de texto -->
                 <div>
                     <label for="bodyDetalle">Ingrese su mensaje</label>
+                    <br>
+                       <!-- Area de texto vacía -->
                     <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+                    <br>
                 </div>
 
                 <!-- Input checkbox -->
                 <div>
                     <input type="checkbox" name="bolAutorizo" id="bolAutorizo" required>
                     <label for="bolAutorizo">Autorizo el envio de publicidad e información comercial</label>
+                    <br>
                 </div>
 
                 <!-- Input Submit / Botón enviar -->
                 <div>
+                    <br>
                     <input type="submit" value="Enviar">
+                   
+                    <br>
                 </div>
                
             </form>
         </section>
 
-        <!--  -->
-        <section id="ubicanos">
-            <p>Jr. Ayacucho 862 <br>
-            Cercado de Lima <br>
-            Lima - Perú
-            </p>
-            <p>Teléfono: 01 3760264 / 99584589</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8448212504463!2d-77.0308096850708!3d-12.054195945321014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b99bbc53db%3A0xde4d615b1e53e2f5!2sJr.%20Ayacucho%20851%2C%20Lima%2015001!5e0!3m2!1ses!2spe!4v1679746642746!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
     </main>
+
+    <footer>
+        <p>Todos los derechos Reservados  &copy; 2023  a Candy Malvys</p> <!-- &copy; derecho de autor -->
+        <P>Desarrollado por Ronal Salazar M</P>
+    </footer>
 
 </body>
 </html>
